@@ -6,10 +6,7 @@
 
 main()
 {
-    std::vector<std::vector<float>> matrix1 = { {1, 2, 2, 1},
-                                                {0, 3, -2, 1},
-                                                {-5, 4, 0.5, 0},
-                                                {2, 1, 1, 3} };
+    std::vector<std::vector<float>> matrix1 = {{1, 2, 2, 1}, {0, 3, -2, 1}, {-5, 4, 0.5, 0}, {2, 1, 1, 3}};
 
     displayMatrix(matrix1);
     float testA = detnxn(matrix1);

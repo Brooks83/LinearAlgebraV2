@@ -3,5 +3,5 @@
 
 void displayMatrix(std::vector<std::vector<float>> m);
 float det2x2(std::vector<std::vector<float>> n);
-std::vector<std::vector<float>> calcSmallerMatrix(std::vector<std::vector<float>> m, short pos);
+std::vector<std::vector<float>> calcSmallerMatrix(std::vector<std::vector<float>> &m, short pos);
 float detnxn(std::vector<std::vector<float>> o);

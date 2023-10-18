@@ -19,7 +19,7 @@ float det2x2(std::vector<std::vector<float>> n)
 { return (n[0][0] * n[1][1]) - (n[0][1] * n[1][0]); }
 
 //  Calculates the submatrix needed for the determinant
-std::vector<std::vector<float>> calcSmallerMatrix(std::vector<std::vector<float>> matrix, short pos)
+std::vector<std::vector<float>> calcSmallerMatrix(std::vector<std::vector<float>> &matrix, short pos)
 {
     short mSize = matrix.size();
     std::vector<std::vector<float>> newVector;
