@@ -40,7 +40,7 @@ std::vector<std::vector<float>> calcSmallerMatrix(std::vector<std::vector<float>
 }
 
 
-//  Grabs the square matrix and loops each set of calculations down to
+//  Grabs the square matrix and loops each set of submatrix calculations down to
 //  its 2x2 determinant and adds to a total sum, returning a final determinant.
 
 float detnxn(std::vector<std::vector<float>> o)
@@ -64,7 +64,6 @@ float detnxn(std::vector<std::vector<float>> o)
         if(oSize > 2)
         {
             calcdV = calcSmallerMatrix(o, col); //  First split into matrix branch -> recursion until 2x2 -> next col split again
-            displayMatrix(calcdV);
             determinant += detnxn(calcdV) * scalar;
         }
     }
