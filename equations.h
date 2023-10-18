@@ -1,4 +1,3 @@
-//#include "equations.cpp"
 #pragma once    //  Guard: Ensures this file is not inserted multiple times into a single cpp file.
 #include <vector>
 

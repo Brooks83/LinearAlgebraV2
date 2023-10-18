@@ -18,10 +18,10 @@ main()
     std::vector<std::vector<float>> matrix3 = { {1, 2, 3},
                                                 {2, 3, 1},
                                                 {3, 2, 1} };
-    //std::vector<std::vector<float>> matrixSmall = calcSmallerMatrix(matrix3, 0, 2);
+
     displayMatrix(matrix1);
     float testA = detnxn(matrix1);
-    cout << "\nFinal Answer: " << testA;    //  Fix this new stupid compile error!
-                                //  (I added mingw64/bin to path for another compile error)
+    cout << "\nFinal Answer: " << testA;
+ 
     return 0;
 };
